@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-23T12:55:31 IST" name="Google Suite" finished-at="2026-06-23T12:55:48 IST" duration-ms="17127">
+    <groups>
+    </groups>
+    <test started-at="2026-06-23T12:55:31 IST" name="Chrome Tests" finished-at="2026-06-23T12:55:41 IST" duration-ms="10628">
+      <class name="testcases.SecondSample">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.SecondSample@50029372]" started-at="2026-06-23T12:55:31 IST" name="setup" finished-at="2026-06-23T12:55:40 IST" duration-ms="8853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginTest()[pri:0, instance:testcases.SecondSample@50029372]" started-at="2026-06-23T12:55:40 IST" name="LoginTest" finished-at="2026-06-23T12:55:41 IST" duration-ms="1091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SecondSample@50029372]" started-at="2026-06-23T12:55:41 IST" name="tearDown" finished-at="2026-06-23T12:55:41 IST" duration-ms="584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.SecondSample -->
+    </test> <!-- Chrome Tests -->
+    <test started-at="2026-06-23T12:55:31 IST" name="Firefox Tests" finished-at="2026-06-23T12:55:48 IST" duration-ms="17127">
+      <class name="testcases.SecondSample">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.SecondSample@1890516e]" started-at="2026-06-23T12:55:31 IST" name="setup" finished-at="2026-06-23T12:55:45 IST" duration-ms="14194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginTest()[pri:0, instance:testcases.SecondSample@1890516e]" started-at="2026-06-23T12:55:45 IST" name="LoginTest" finished-at="2026-06-23T12:55:46 IST" duration-ms="1511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SecondSample@1890516e]" started-at="2026-06-23T12:55:46 IST" name="tearDown" finished-at="2026-06-23T12:55:48 IST" duration-ms="1335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.SecondSample -->
+    </test> <!-- Firefox Tests -->
+  </suite> <!-- Google Suite -->
+</testng-results>
