@@ -20,7 +20,7 @@ public void search(String searching,String sample) {
 	System.out.println("resting");
 	
 	
-	
+	System.out.println("new");
 
 }
 
