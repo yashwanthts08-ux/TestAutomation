@@ -17,6 +17,7 @@ public void search(String searching,String sample) {
 	DriverFactory.getDriver().findElement(By.xpath("//input[@name='email']")).sendKeys(searching);
 	DriverFactory.getDriver().findElement(By.xpath("//input[@name='pass']")).sendKeys(sample);
 	System.out.println("testing");
+	System.out.println("resting");
 	
 	
 
