@@ -10,7 +10,7 @@ import base.BaseTest;
 import driverfactory.DriverFactory;
 import pages.LoginPage;
 
-public class SecondSample extends BaseTest {
+public class ForBranch extends BaseTest {
 @Test(retryAnalyzer = RetryAnalyzer.class) // we can add in listener class as well if we want to do it for all failed cases
 void LoginTest() {
 	SoftAssert soft = new SoftAssert();
@@ -27,3 +27,4 @@ void git() {
 }
 
 }
+
