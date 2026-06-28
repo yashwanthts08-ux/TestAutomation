@@ -17,6 +17,7 @@ public class Testing {
 		WebElement c = driver.findElement(By.id("country"));
 		Select s = new Select(c);
 		s.selectByVisibleText("United States");
+		s.deselectAll();
 	List<WebElement> o = s.getOptions();
 	for(WebElement w:o) {
 		System.out.println(w.getText());
